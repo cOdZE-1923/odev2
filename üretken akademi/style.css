@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: lightblue;
+  }
+  
+  #baslik{
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  #container{
+  border: black double 5px;
+  width: 36%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: yellow;
+  
+  }
+  
+  #rows{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+  }
+  
+  .bigbox{
+    background-color: white;
+    border: solid 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.1rem ;
+    padding: 0.2rem;
+    width: 32.2%;
+    
+  }
+  
+  .numberbox{
+    border: solid 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0.3rem;
+    width: 33%;
+  }
+  
+  
